@@ -59,3 +59,16 @@ console.log (`${nome} enfrentou ${numeroDeMonstro}, comeu ${numeroDeWaffles} e e
 let frase1 = ` me chamo ${{nome}} enfrentou ${{numeroDeMonstro}} comeu ${{numeroDeWaffles}} e esta feliz? ${{elaEstaFeliz}}.`  
 
 console.log(frase1)
+
+const prota = "Petrick Jane"
+const possivelAssassino = "Red John"
+let primeiroSuspeito = "Bret Styles"
+const agente = "Lisbon"
+const agente2 = "Cho"
+const agente3 = "Rigsby"
+const agente4 = "Van Pelt"
+const agencia = "visialize"
+
+let frase2 = ` O prota da serie e o ${prota} e eu que estou no ep 3 da 3 temporada acho que o ${possivelAssassino} e o ${primeiroSuspeito} por conta que a agencia ${agencia} apareceu muitas vezes na serie coisa que nao aconteceu com outra agencias. espero que o ${prota}, ${agente}, ${agente2}, ${agente3} e ${agente4} consigam descobrir quem e o ${possivelAssassino} e que eu esteja certo do ${possivelAssassino} ser o ${primeiroSuspeito}.`
+
+console.log(frase2)
