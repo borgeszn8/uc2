@@ -59,3 +59,5 @@ console.log (`${nome} enfrentou ${numeroDeMonstro}, comeu ${numeroDeWaffles} e e
 let frase1 = ` me chamo ${{nome}} enfrentou ${{numeroDeMonstro}} comeu ${{numeroDeWaffles}} e esta feliz? ${{elaEstaFeliz}}.`  
 
 console.log(frase1)
+
+

@@ -54,7 +54,7 @@ let alunoMatriculado = true
 // TIPOS DE VARIAVEIS
 
 // NUMBER
-
+/*
 const idadeAlunoTDS = 23
 const altura =1.79
 const temperatura = -23
@@ -84,3 +84,25 @@ let pagamentoAprovado = false
 let LorenzoMaiorIdade = false
 
 console.log(usuarioLogado, pagamentoAprovado, LorenzoMaiorIdade)
+*/
+
+// TIPOS DE VARIAVEIS
+// typeof e um comando para ver os tipos de variaveis
+
+const got = " game of thrones"
+const temporadasDeGod = 8
+const tipoGod = typeof got
+const tipoTemporadasDeGod = typeof temporadasDeGod
+console.log(tipoGod)
+
+console.log(tipoTemporadasDeGod)
+
+//Undefined - e um tipo de variavel que nao tem valor atribuido a ela.
+
+let novaVariavel 
+
+const tipoNovaVariavel = typeof novaVariavel
+console.log(tipoNovaVariavel)
+
+//NaN - Not a Number - e um tipo de variavel que nao e um numero.
+
