@@ -46,7 +46,7 @@
 // let vocacao = "Pirata"
 
 //let = `Ola eu sou o ${personagemAnime} e sou um ${vocacao}.`
-
+/*
 //1. jeito, tudo direto
 const nome = "Eleven"
 let numeroDeMonstro = "5 Monstros"
@@ -75,4 +75,15 @@ const agencia = "visialize"
 let frase2 = ` O prota da serie e o ${prota} e eu que estou no ep 3 da 3 temporada acho que o ${possivelAssassino} e o ${primeiroSuspeito} por conta que a agencia ${agencia} apareceu muitas vezes na serie coisa que nao aconteceu com outra agencias. espero que o ${prota}, ${agente}, ${agente2}, ${agente3} e ${agente4} consigam descobrir quem e o ${possivelAssassino} e que eu esteja certo do ${possivelAssassino} ser o ${primeiroSuspeito}.`
 
 console.log(frase2)
->>>>>>> fc92f2641912cb3a5179ba5acf3598b7e4208170
+
+
+*/
+ const nomeDoRobo = "bob"
+ let passosDeDanca = "hip hop"
+ const acao = "esta dancando"
+
+ let frase3 = ` O ${nomeDoRobo} ja aprendeu ${passosDeDanca}. Ele esta dancando agora? ${acao}. `
+
+ console.log(frase3)
+
+ 
