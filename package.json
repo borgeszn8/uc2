@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  },
+  "name": "uc2-dia-1-de-setembro-(desenvolver-algoritimos)",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000u\u0000c\u00002\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borgeszn8/uc2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/borgeszn8/uc2/issues"
+  },
+  "homepage": "https://github.com/borgeszn8/uc2#readme"
+}
