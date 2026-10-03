@@ -12,5 +12,5 @@ else if(pontuacao >= 500)
 }
 else
 {
-    console.log("Continue tentando, padawan!")
+    console.log("Continue tentando!")
 }
