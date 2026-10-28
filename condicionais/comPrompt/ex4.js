@@ -1,5 +1,6 @@
 const prompt = require("prompt-sync")()
 
+<<<<<<< HEAD
 let traco = prompt("Qual seu principal traco? (coragem, inteligencia, lealdade) \n ")
 
 if(traco === "coragem")
@@ -18,3 +19,5 @@ else
 {
     console.log("Demongorgon?")
 }
+=======
+>>>>>>> d1ed8f74ad68000979dc48610f180516c50daa7c
