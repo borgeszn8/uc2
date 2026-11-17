@@ -76,3 +76,79 @@ A propriedade length informa a quantidade de elementos existentes do arrays
 */
 let pokemons = ["Pikachu", "Eevee", "Snorlax"]
 console.log(pokemons.length)
+/*
+=====================================================================================================================================
+6. METODO INCLUDES() - VERIFICA EXISTENCIA
+===========================================
+
+O metodo includes() verifica se determinado valor existente dentro do array
+
+retorna: 
+true = encontrou 
+false - nao encontrou 
+*/
+//exemplo:
+let equipeAsh = ["Pikachu", "Charizard", "Squirtle"]
+
+console.log(equipeAsh.includes("Pikachu"))
+//===================================================================================================================================
+/*
+7. METODO PUSH() - ADICIONA AO FINAL
+====================================
+É uma ação que podemos executar sobre um array. O push adiciona um novo elemento ao FINAL
+*/
+let equipe = ["Pikachu", "Charmander"]
+console.log("Antes: ", equipe)
+equipe.push("Bulbasaur")
+console.log("Depois: ", equipe)
+/*
+=====================================================================================================================================
+8. METODO UNISHIFT()
+====================
+unishift() adiciona um elemento na primeira posição
+*/
+let mochila2 = ["Pikachu", "Eeevee"]
+mochila2.unshift("Mew")
+console.log(mochila2)
+/*
+=====================================================================================================================================
+9. METODO SHIFT() 
+=================
+shift() remove o primeiro elemento 
+*/
+let mochila3 = ["Mew", "Pikachu", "Evee"]
+mochila3.shift()
+console.log(mochila3)
+/*
+=====================================================================================================================================
+9. METODO POP() - REMOVE O ULTIMO ELEMENTO DE UM ARRAY
+*/
+const meusPeixes = ["Palhaço", "Mandarim", "Esturjão"]
+console.log(meusPeixes)
+
+meusPeixes.pop()
+console.log(meusPeixes)//["Palhaço", "Mandarim"]
+/*
+=====================================================================================================================================
+11. METODO SPLICE(i, n) remove "n" elementos à partir da poaição "i" do array
+*/
+const letras = ["a","b", "c", "d", "e", "f", "g", "h"]
+//indices (i)    0   1    2    3    4    5    6    7   
+
+console.log(letras)
+
+letras.splice(2, 1)
+
+//    letras = ["a", "b", "d", "e", "f", "g", "h"]  -> da array letras, na posição 2 ("c") remove 1 (o próprio "c")
+//indices (i)    0    1    2    3    4    5    6    
+
+console.log(letras)
+letras.splice(3, 2)// ["a", "b", "d", "g", "h"] //->da array letras, na posição 3 ("d") remove 2 ("e" e "f")
+console.log(letras)
+//=====================================================================================================================================
+//12. METODO CONCAT - CONCATENAR SIGNIFICA JUNTAR DOIS OU MAIS ARRAYS PARA FORMAR UMA NOVA
+let frutas2 = ["maça", "banana"]
+let legumes= ["cenoura", "batata"]
+
+let alimentos = frutas2.concat(legumes)
+console.log(alimentos)
